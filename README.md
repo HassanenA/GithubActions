@@ -141,5 +141,6 @@ In GitHub, that will look like the following:
 If everything passes, feel free to merge. You are now using CI.
 
 Hello
+[![Run App Alyassiri, Hassanen](https://github.com/HassanenA/GithubActions/actions/workflows/ci.yml/badge.svg)](https://github.com/HassanenA/GithubActions/actions/workflows/ci.yml)
 
 [![Run App Alyassiri, Hassanen](https://github.com/HassanenA/GithubActions/actions/workflows/ci.yml/badge.svg)](https://github.com/HassanenA/GithubActions/actions/workflows/ci.yml)
