@@ -7,7 +7,7 @@ public class Subtraction
     [TestMethod]
     public void Subtract_Valid_Alyassiri()
     {
-        Assert.AreEqual(10000000, Program.Subtract("1", "2"));
+        Assert.AreEqual(-1, Program.Subtract("1", "2"));
         Assert.AreEqual(1, Program.Subtract("3", "2"));
         Assert.AreEqual(-2, Program.Subtract("5", "7"));
     }
