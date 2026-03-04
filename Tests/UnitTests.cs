@@ -1,3 +1,6 @@
+using GithubActionsLab;
+namespace GithubActionsLab;
+
 [TestClass]
 public class Subtraction
 {
