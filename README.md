@@ -1,4 +1,4 @@
-[![Run App](https://github.com/kgerot/GithubActions/actions/workflows/run-app.yaml/badge.svg)](https://github.com/kgerot/GithubActions/actions/workflows/run-app.yaml)
+[![Run App Alyassiri, Hassanen](https://github.com/HassanenA/GithubActions/actions/workflows/ci.yml/badge.svg)](https://github.com/HassanenA/GithubActions/actions/workflows/ci.yml)
 
 # Do not submit a pull request to `kgerot/GithubActions` or `dteske/TraviCI`. Not following this instruction can ruin the lab for others, so pay attention.
 
@@ -28,7 +28,6 @@ We want our action to build our project. To do this, navigate to the file `.gith
 This is where we have define a workflow that runs a process called `Basic Action` that echos `Hello, World!`. It runs on the latest Ubuntu OS and runs everytime you push.
 
 Replace the contents of the file with the code below
-
 ```yaml
 name: 'Run App <last name>, <first name>'
 
@@ -78,7 +77,6 @@ If you accidentally submit a pull request to the master branch of `kgerot/Github
 
 ## Set up Github Actions to run Unit Tests
 To run the tests after every change, we'll have to modify the .yaml slightly. Add the follwing code to the steps section:
-
 ```yaml
       - name: run unit tests
         run: dotnet test
@@ -137,10 +135,3 @@ And in GitHub it will look like:
 In GitHub, that will look like the following:
 
 ![pr overview passed](./assets/imgs/passed-pull.PNG)
-
-If everything passes, feel free to merge. You are now using CI.
-
-Hello
-[![Run App Alyassiri, Hassanen](https://github.com/HassanenA/GithubActions/actions/workflows/ci.yml/badge.svg)](https://github.com/HassanenA/GithubActions/actions/workflows/ci.yml)
-
-[![Run App Alyassiri, Hassanen](https://github.com/HassanenA/GithubActions/actions/workflows/ci.yml/badge.svg)](https://github.com/HassanenA/GithubActions/actions/workflows/ci.yml)
